@@ -1,11 +1,37 @@
-# MovieLensDataAnalysis
-The simple goal for this repository is to demonstrate exploratory data analysis and visualization techniques using Python.  
-I ran queries on the dataset to answer the following questions and more:
-  How many movies are there in each genre/category?
-  Which movies fall into more than one genre/category?
-  What are the trends across genres where gender is concerned?
-I created queries to answer these questions and also draw inferences from the data.
+MovieLens Data Exploration: Genre Trends and Gender Analysis
 
-The data supports the idea that women watch more drama and romance than men and that men watch more sci-fi than women.
+Overview
+This repository contains an exploratory data analysis of the MovieLens dataset, focusing on movie genres and viewer demographics. The analysis answers key questions about genre distributions, multi-genre movies, and viewing trends across genders using Python's data science stack.
 
-Packages imported:  Seaborn, Matplotlib, Pandas & Numpy
+
+Key Findings
+Genre Distribution: Identified the number of movies in each category (Drama: 725, Comedy: 505, Action: 251, etc.)
+
+Multi-Genre Movies: Found 849 movies that belong to more than one genre
+
+Gender Trends:  
+
+Women watch more Drama and Romance films than men
+
+Men watch more Sci-Fi than women
+
+
+Techniques Used
+Data cleaning and manipulation with Pandas
+
+Statistical analysis and aggregation
+
+Data visualization with Matplotlib and Seaborn
+
+Merging and joining datasets
+
+
+Packages Required:
+Pandas
+NumPy
+Matplotlib
+Seaborn
+
+The analysis provides insights into movie genre popularity and viewing patterns, demonstrating fundamental data exploration techniques in Python.
+
+
